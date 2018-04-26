@@ -1,0 +1,3 @@
+[submodule "spencer_people_tracking"]
+	path = spencer_people_tracking
+	url = https://github.com/spencer-project/spencer_people_tracking.git
