@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find turtlebot_bringup)/launch/minimal.launch" output="screen"/>
+	<include file="$(find turtlebot_navigation)/launch/amcl_demo.launch" output="screen">
+		<arg name="map_file" value="$(find raycasting)/src/map/map.yaml"/>
+  	</include>
+  	<include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch" output="screen"/>
+</launch>
