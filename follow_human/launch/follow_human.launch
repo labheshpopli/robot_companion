@@ -1,0 +1,3 @@
+<launch>
+	<node name="follow_human_node" pkg="follow_human" type="follow_human_node" />
+</launch>
