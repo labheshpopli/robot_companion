@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="leg_detector" type="detector" name="leg_detector" output="screen">
+        <param name="image_scan" value="$(arg image_scan)" type="string"/>
+    </node>
+
+</launch> 
